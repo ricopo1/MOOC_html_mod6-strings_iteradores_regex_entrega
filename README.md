@@ -237,26 +237,27 @@ Al pulsar el botón "Buscar palabras", deben aparecer listadas todas las palabra
 
 
 
+
 ## Prueba de la práctica 
 
 Para ayudar al desarrollo, se provee una herramienta de autocorrección que prueba las distintas funcionalidades que se piden en el enunciado. Para utilizar esta herramienta debes tener node.js (y npm) ([https://nodejs.org/es/](https://nodejs.org/es/)) y Git instalados. 
 
-Para instalar y hacer uso de la [herramienta de autocorrección](https://www.npmjs.com/package/autocorector) en el ordenador local, ejecuta los siguientes comandos en el directorio del proyecto:
+Para instalar y hacer uso de la [herramienta de autocorrección](https://www.npmjs.com/package/moocauto) en el ordenador local, ejecuta los siguientes comandos en el directorio del proyecto:
 
 ```
-$ npm install -g autocorector     ## Instala el programa de test
-$ autocorector                    ## Pasa los tests al fichero a entregar
-............................      ## en el directorio de trabajo
+$ npm install -g moocauto     ## Instala el programa de test
+$ moocauto                    ## Pasa los tests al fichero a entregar
+............................  ## en el directorio de trabajo
 ... (resultado de los tests)
 ```
 También se puede instalar como paquete local, en el caso de que no se dispongas de permisos en el ordenador desde el que estás trabajando:
 ```
-$ npm install autocorector     ## Instala el programa de test
-$ npx autocorector             ## Pasa los tests al fichero a entregar
+$ npm install moocauto         ## Instala el programa de test
+$ npx moocauto                 ## Pasa los tests al fichero a entregar
 ............................   ## en el directorio de trabajo
 ... (resultado de los tests)
 ```
 
-Se puede pasar la herramienta de autocorrección tantas veces como se desee sin ninguna repercusión en la calificación.
+Se puede pasar la herramienta de autocorrección tantas veces como se desee.
 
 
