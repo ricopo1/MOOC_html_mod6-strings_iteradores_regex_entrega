@@ -4,7 +4,8 @@
 
 <br/><br/><br/>
 
-# MOOC_html_mod6-strings_iteradores_regex_entrega
+# Módulo 6: Strings, iteradores, bucles y Regexp - Entrega P2P: Word count
+
 ## Objetivos
  * Practicar con Strings, arrays e iteradores
  * Utilizar expresiones regulares para identificar patrones en textos
