@@ -13,7 +13,7 @@ let error_critical = null;
 
 
 // TESTS
-describe("Sample test", function () {
+describe("Strings e iteradores", function () {
     it("1(Precheck): Comprobando que existe el fichero de la entrega...", async function () {
         this.name = "";
         this.score = 0;
@@ -63,11 +63,9 @@ describe("Sample test", function () {
 
             const input = Utils.randomArrayOfWordsGenerator();
             const expected = "Palabras: "+ input.length;
-            console.log(expected)
 
             await browser.fill('text', input.join(" "));
             await browser.pressButton('Contar');
-            console.log(browser.text("#view"))
             Utils.search(expected, browser.text("#view")).should.be.equal(true);
         }
     });

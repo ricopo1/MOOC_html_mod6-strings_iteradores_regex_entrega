@@ -4,7 +4,7 @@
 
 <br/><br/><br/>
 
-# Módulo 6: Strings, iteradores, bucles y Regexp - Entrega P2P: Word count
+# Módulo 6: Strings, iteradores, bucles y Regexp - Entrega P2P: Contar palabras
 
 ## Objetivos
  * Practicar con Strings, arrays e iteradores
@@ -261,4 +261,9 @@ $ npx moocauto                 ## Pasa los tests al fichero a entregar
 
 Se puede pasar la herramienta de autocorrección tantas veces como se desee.
 
+A la hora de evaluar, el evaluador tendrá que seguir los siguientes criterios:
 
+**RÚBRICA**: Se puntuará el ejercicio a corregir sumando el % indicado a la nota total si la parte indicada es correcta:
+ * 40%: El botón "Contar" muestra el número de palabras
+ * 30%: El botón "Repeticiones de palabras" muestra todas las repetidas y el número de veces que se repite cada una
+ * 20%: El botón "Buscar palabras" encuentra correctamente las palabras buscadas
